@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .about-container {
+            max-width: 1000px;
+            margin: 30px auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+
+        h2 {
+            margin-top: 20px;
+            font-size: 1.8em;
+            color: #34495e;
+            border-bottom: 2px solid #e74c3c;
+            padding-bottom: 5px;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            font-size: 1.1em;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        ul.contact-info {
+            list-style-type: none;
+        }
+
+        ul.contact-info li {
+            margin-bottom: 10px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: #e74c3c;
+        }
+
+        /* Media Queries for Mobile Responsiveness */
+        @media (max-width: 768px) {
+            .about-container {
+                padding: 10px;
+            }
+
+            h1 {
+                font-size: 1.8em;
+            }
+
+            h2 {
+                font-size: 1.5em;
+            }
+
+            p,
+            ul li {
+                font-size: 1em;
+            }
+        }
+
+        .team-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .team-member {
+            text-align: center;
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .team-member img:hover {
+            transform: scale(1.7);
+        }
+
+        .team-member h3 {
+            margin-top: 10px;
+            font-size: 1.2em;
+            color: #2c3e50;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="about-container">
+        <h1>About Me</h1>
+
+        <section class="section" id="bio">
+            <h2>About Me</h2>
+            <p>Hello! My name is Kavy Boricha. I am a passionate developer specializing in creating efficient,
+                user-friendly web solutions. With expertise in HTML, CSS, and JavaScript, I love turning ideas into
+                beautiful, responsive, and functional designs. When I am not coding, I enjoy exploring new technologies
+                and enhancing my skills.</p>
+        </section>
+
+        <section class="section" id="meet-me">
+            <h2>Meet Me</h2>
+            <div class="team-container">
+                <div class="team-member">
+                    <img src="kavy.jpg" alt="Kavy Boricha">
+                    <h3>Kavy Boricha</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="contact-me">
+            <h2>Contact Me</h2>
+            <p>If you'd like to connect or have any questions, feel free to reach out:</p>
+            <ul class="contact-info">
+                <li><strong>Email:</strong> kavyboricha0707@gmail.com</li>
+                <li><strong>Phone:</strong> +91 7016454294</li>
+                <li><strong>Address:</strong> New visvanagr-1 Mavdi plot, Rajkot, India</li>
+            </ul>
+        </section>
+    </div>
+</body>
+
+</html>

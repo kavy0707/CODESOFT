@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portflio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        body {
+            background-color: rgb(83, 145, 165);
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 63px;
+            color: rgb(243 240 240);
+            background-color: rgb(56 56 166);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        nav .left {
+            font-size: 1.5rem;
+        }
+
+        nav ul li {
+            margin: 0px 24px;
+
+            list-style: none;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            font-size: 17px;
+        }
+
+        nav ul li a:hover {
+            font-size: 20px;
+            background-color: rgb(181, 181, 140);
+            color: rgb(158, 113, 113);
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 100px;
+        }
+
+        .firstsection .left {
+            width: 450px;
+            height: auto;
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        .purple {
+            color: purple;
+        }
+
+        .firstsection .right {
+            width: auto;
+            height: auto;
+            align-items: center;
+            justify-content: center;
+            margin-left: 140px;
+        }
+
+        #element {
+            color: purple;
+        }
+
+        .secondsection {
+            background-image: url(bg1_files/035244_1f9f550…~mv2_d_1920_3986_s_2.jpg);
+            height: 11cm
+        }
+
+        .secondsection .title {
+            color: rgb(78, 74, 74);
+            font-size: 2.5rem;
+        }
+
+        .secondsection .secondtext {
+            font-size: 1.3rem;
+            color: white;
+        }
+
+        .secondsection image {
+            display: flex;
+            padding-left: 1vh;
+        }
+
+        .secondsection img {
+            width: 7.5cm;
+            height: 6.5cm
+        }
+
+        .sectionthird {
+            margin-top: 0px;
+        }
+
+        .sectionthird .title {
+            color: rgb(78, 74, 74);
+            font-size: 2.5rem;
+        }
+
+        .sectionthird .secondtext {
+            font-size: 1.3rem;
+            color: white;
+            margin-top: 31px;
+        }
+
+        .resume-link {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            font-size: 1.1em;
+            color: #fff;
+            background-color: #e74c3c;
+            text-decoration: none;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .resume-link:hover {
+            background-color: #c0392b;
+            transform: translateY(-3px);
+        }
+
+        .fourthsection {
+            margin-top: 44px;
+        }
+
+        .fourthsection .title {
+            color: rgb(78, 74, 74);
+            font-size: 2.5rem;
+        }
+
+        .fourthsection .secondtext {
+            font-size: 1.3rem;
+            color: white;
+            margin-top: 31px;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+
+        ul.contact-info {
+            list-style-type: none;
+        }
+
+        ul.contact-info li {
+            list-style-type: none;
+            font-size: 18px;
+            margin-top: 12px;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: red;
+        }
+
+        footer {
+            background-color: #2c3e50;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">
+                Kavy's Portfolio
+            </div>
+            <div class="right">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="Project.html">Projects</a></li>
+                    <li><a href="#Contact">Contact-us</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="firstsection">
+            <div class="left">
+                hi, I am
+                <span class="purple">
+                    Kavy Boricha
+                </span>
+                <div>
+                    and I am Professional
+                </div>
+                <div>
+                    <span id="element"></span>
+                </div>
+            </div>
+            <div class="right">
+                <img src="bg.webp" alt="">
+            </div>
+        </div>
+
+        <div class="secondsection">
+            <div class="title">
+                <center>PORTFOLIO</center>
+            </div>
+            <br>
+            <div class="secondtext">
+                <center> EXPLORE MY LATEST PROJECTS </center>
+            </div>
+            <div class="image">
+                <center>
+                    <a href="https://kavy0707.github.io/arjun"><img
+                            src="bg1_files/035244_1b65a67fbb9d4380b83b04e877918797~mv2.gif" alt=""></a>
+                    <a href="https://kavy0707.github.io/arjun"><img
+                            src="bg1_files/035244_a6c9940be7574f80958eb48ee670c94a~mv2.gif" alt=""></a>
+                    <a href="https://kavy0707.github.io/arjun"><img src="computer.webp" alt=""></a>
+                </center>
+
+            </div>
+        </div>
+
+        <div class="sectionthird">
+
+            <div class="title">
+                <center>RESUME</center>
+            </div>
+            <div class="secondtext">
+                <center> Want to know more about my professional journey? Download my resume below: </center>
+            </div>
+            <center>
+                <a href="resume.pdf" class="resume-link" download>Download My Resume</a>
+            </center>
+        </div>
+
+        <div class="fourthsection" id="Contact">
+            <div class="title">
+                <center>Contact Me</center>
+            </div>
+            <div class="secondtext">
+                <center>
+                    <p>If you'd like to connect or have any questions, feel free to reach out:</p>
+                </center>
+            </div>
+            <ul class="contact-info">
+                <center>
+                    <li><strong>Email:</strong> kavyboricha0707@gmail.com</li>
+                    <li><strong>Phone:</strong> +91 7016454294</li>
+                    <li><strong>Address:</strong> New visvanagr-1 Mavdi plot, Rajkot, India</li>
+                </center>
+            </ul>
+        </div>
+
+        <footer>
+            <p>&copy; 2025 Kavy Boricha. All Rights Reserved.</p>
+            <p>
+                <a href="privacy.html" style="color: #e74c3c; text-decoration: none; margin: 0 10px;">Privacy Policy</a>
+                |
+                <a href="terms.html" style="color: #e74c3c; text-decoration: none; margin: 0 10px;">Terms of Service</a>
+                |
+                <a href="contact.html" style="color: #e74c3c; text-decoration: none; margin: 0 10px;">Contact</a>
+            </p>
+        </footer>
+
+    </main>
+
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer ', 'Java Developer', 'Python Developer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
